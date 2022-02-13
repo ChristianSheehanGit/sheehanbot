@@ -42,4 +42,4 @@ async def topic(ctx):
     ]
     await ctx.reply(random.choice(questions))
 
-bot.run("OTQyMjYxMjIwMTU1NzQ4NDMz.Ygh7JQ.J0bLpbltkF9VHRKT1cM2rhnk9Ws")
+bot.run("OTQyMjYxMjIwMTU1NzQ4NDMz.Ygh7JQ.jhmcBCUnYOaBhHfwEoV2t26DN7M")
