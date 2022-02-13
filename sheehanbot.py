@@ -90,6 +90,10 @@ async def topic(ctx):
 @bot.command()
 async def help(ctx):
     await ctx.reply("Hey Sheefan, I'm SheehanBot.\n\nHere are the things I can do:\n\n.topic - conversation starter\n.frogfact - frog fact\n\nthat's it.")
+    
+@bot.command()
+async def toth(ctx):
+    await ctx.reply("I love Dustin Toth! :lmao54:")
 
 @bot.command()
 async def frogfact(ctx):
