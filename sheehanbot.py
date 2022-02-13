@@ -89,7 +89,7 @@ async def topic(ctx):
 
 @bot.command()
 async def help(ctx):
-    await ctx.reply("Hey Sheefan, I'm SheehanBot.\n\nHere are the things I can do:\n\n.topic - conversation starter\n.frogfact - frog fact\n\nthat's it.")
+    await ctx.reply("Hey Sheefan, I am SheehanBot.\n\nHere are the things I can do:\n\n.topic - conversation starter\n.frogfact - frog fact\n\nthat's it.")
     
 @bot.command()
 async def toth(ctx):
