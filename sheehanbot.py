@@ -3,9 +3,10 @@ import random
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix='.')
+bot.remove_command("help")
 
 @bot.command()
-async def help2(ctx):
+async def help(ctx):
     await ctx.reply("Hey Sheefan, I'm SheehanBot.\n\nHere are the things I can do:\n\n.topic - conversation starter\n\nthat's it.")
 
 async def topic(ctx):
@@ -42,4 +43,4 @@ async def topic(ctx):
     ]
     await ctx.reply(random.choice(questions))
 
-bot.run("OTQyMjYxMjIwMTU1NzQ4NDMz.Ygh7JQ.jhmcBCUnYOaBhHfwEoV2t26DN7M")
+bot.run("OTQyMjYxMjIwMTU1NzQ4NDMz.Ygh7JQ.J0bLpbltkF9VHRKT1cM2rhnk9Ws")
