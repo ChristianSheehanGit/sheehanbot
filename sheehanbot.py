@@ -94,6 +94,13 @@ async def help(ctx):
 @bot.command()
 async def toth(ctx):
     await ctx.reply("I love Dustin Toth! :lmao54:")
+    
+@bot.command()
+async def random(ctx):
+    f = open("text.txt", "r")
+    lines = f.readlines()
+    n = random.randrange(0, len(lines))
+    await ctx.reply(lines[n])
 
 @bot.command()
 async def frogfact(ctx):
