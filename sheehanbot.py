@@ -107,6 +107,12 @@ async def version(ctx):
     await ctx.reply("1.01") 
 
 @bot.command()
+async def poll(ctx, *, text):
+    message = await ctx.send(text)
+    for emoji in ('👍', '👎'):
+        await message.add_reaction(emoji)
+    
+@bot.command()
 async def frogfact(ctx):
     frogfacts = [
       "Did you know that frogs absorb water through their skin so they don't need to drink?",
