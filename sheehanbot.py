@@ -101,6 +101,10 @@ async def random(ctx):
     lines = f.readlines()
     n = random.randrange(0, len(lines))
     await ctx.reply(lines[n])
+    
+@bot.command()
+async def version(ctx):
+    await ctx.reply("1.01") 
 
 @bot.command()
 async def frogfact(ctx):
