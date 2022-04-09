@@ -104,7 +104,7 @@ async def random(ctx):
     
 @bot.command()
 async def version(ctx):
-    await ctx.reply("1.01") 
+    await ctx.reply("1.02") 
 
 @bot.command()
 async def poll(ctx, *, text):
