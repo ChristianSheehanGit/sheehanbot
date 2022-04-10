@@ -112,12 +112,6 @@ async def poll(ctx, *, text):
     for emoji in ('👍', '👎'):
         await message.add_reaction(emoji)
     
-@bot.command()
-async def archive(ctx):
-    role = get(message.server.roles, name='Archive')
-    wait client.add_roles(message.author, role)
-    await ctx.reply("You now have access to archived channels.")
-    
 
     
 @bot.command()
