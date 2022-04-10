@@ -118,11 +118,7 @@ async def archive(ctx):
     wait client.add_roles(message.author, role)
     await ctx.reply("You now have access to archived channels.")
     
-@bot.command()
-async def removearchive(ctx):
-    role = get(message.server.roles, name='Archive')
-    wait client.remove_roles(message.author, role)
-    await ctx.reply("You no longer have access to archived channels.")
+
     
 @bot.command()
 async def frogfact(ctx):
