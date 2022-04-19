@@ -85,7 +85,7 @@ async def topic(ctx):
         "Who are your best friends?",
         "What is your favorite season?"
     ]
-    await ctx.reply(random.choice(questions))
+    await ctx.send(random.choice(questions))
 
 @bot.command()
 async def help(ctx):
