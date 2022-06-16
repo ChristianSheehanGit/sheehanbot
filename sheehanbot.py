@@ -88,19 +88,19 @@ async def topic(ctx):
     await ctx.send(random.choice(questions))
 
 @bot.command()
-async def help(ctx):
+#async def help(ctx):
     await ctx.reply("Hey Sheefan, I am SheehanBot.\n\nHere are the things I can do:\n\n.topic - conversation starter\n.frogfact - frog fact\n\nthat's it.")
     
 @bot.command()
-async def toth(ctx):
+#async def toth(ctx):
     await ctx.reply("I love Dustin Toth! :lmao54:")
     
 @bot.command()
-async def version(ctx):
+#async def version(ctx):
     await ctx.reply("1.02") 
 
 @bot.command()
-async def poll(ctx, *, text):
+#async def poll(ctx, *, text):
     message = await ctx.send(text)
     for emoji in ('👍', '👎'):
         await message.add_reaction(emoji)
