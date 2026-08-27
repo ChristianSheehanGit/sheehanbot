@@ -138,4 +138,4 @@ async def frogfact(ctx):
     ]
     await ctx.reply(random.choice(frogfacts))
 
-bot.run("OTQyMjYxMjIwMTU1NzQ4NDMz.Ygh7JQ.jhmcBCUnYOaBhHfwEoV2t26DN7M")
+bot.run("REDACTED")
